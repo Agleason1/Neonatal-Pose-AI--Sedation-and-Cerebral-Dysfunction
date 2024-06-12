@@ -5,35 +5,35 @@
 
 1. training_preds_gts.pickle <br>
 Contains:
-a) Ground truth-labeled body part coordinates for the *training* dataset
-b) Trained model predictions for the same body part coordinates 
+a) Ground truth-labeled body part coordinates for the *training* dataset,
+b) Trained model predictions for the same body part coordinates,
 c) Reference threshold distances (average length of half the head, scaled based on image resolution)<br>
 
 2. frames_preds_gts.pickle <br>
 Contains:
-a) Ground truth-labeled body part coordinates for the *held-out frames* dataset
-b) Trained model predictions for the same body part coordinates
+a) Ground truth-labeled body part coordinates for the *held-out frames* dataset,
+b) Trained model predictions for the same body part coordinates,
 c) Reference threshold distances (average length of half the head, scaled based on image resolution)
 
 3. babies_preds_gts.pickle <br>
 Contains: 
-a) Ground truth-labeled body part coordinates for the *held-out babies* dataset 
-b) Trained model predictions for the same body part coordinates 
+a) Ground truth-labeled body part coordinates for the *held-out babies* dataset, 
+b) Trained model predictions for the same body part coordinates, 
 c) Reference threshold distances (average length of half the head, scaled based on image resolution)
 
 4. training_occlusion.pickle<br>
 Contains: 
-a) Ground truth status of whether a body part was visible (1 = visible, 0 = occluded) in the *training* dataset 
+a) Ground truth status of whether a body part was visible (1 = visible, 0 = occluded) in the *training* dataset, 
 b) Model predicted confidence that body part was visible for the same body parts<br>
 
 5. frames_occlusion.pickle<br>
 Contains:
-a) Ground truth status of whether a body part was visible (1 = visible, 0 = occluded) in the *held-out frames* dataset 
+a) Ground truth status of whether a body part was visible (1 = visible, 0 = occluded) in the *held-out frames* dataset, 
 b) Model predicted confidence that body part was visible for the same body parts 
 
 6. babies_occlusion.pickle<br>
 Contains: 
-a) Ground truth status of whether a body part was visible (1 = visible, 0 = occluded) in the *held-out babies* dataset 
+a) Ground truth status of whether a body part was visible (1 = visible, 0 = occluded) in the *held-out babies* dataset, 
 b) Model predicted confidence that body part was visible for the same body parts 
 
 7. sedation_model_results.pickle <br>
