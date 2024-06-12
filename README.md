@@ -60,16 +60,16 @@ Contains:
 Cerebral dysfunction classifier feature importance values from 500 iterations of XGBoost cross-validation, computed from built-in gain function <br>
 
 ## Dependencies:
-Runs with:
+Runs with: <br>
 Python version 3.11.5<br>
 
-Python Packages:
-pandas v2.0.3
-numpy v1.24.3
-seaborn v0.13.2
-matplotlib v3.9.0
-scipy v1.11.1
-scikit-learn v1.3.0
+Python Packages:<br>
+pandas v2.0.3 <br>
+numpy v1.24.3 <br>
+seaborn v0.13.2 <br>
+matplotlib v3.9.0 <br>
+scipy v1.11.1 <br>
+scikit-learn v1.3.0 <br>
 xgboost v2.0.3
 
 
