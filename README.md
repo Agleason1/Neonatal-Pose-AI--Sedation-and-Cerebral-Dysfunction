@@ -66,8 +66,8 @@ Python version 3.11.5<br>
 Python Packages:
 pandas v2.0.3
 numpy v1.24.3
-seaborn v0.12.2
-matplotlib v3.7.2
+seaborn v0.13.2
+matplotlib v3.9.0
 scipy v1.11.1
 scikit-learn v1.3.0
 xgboost v2.0.3
